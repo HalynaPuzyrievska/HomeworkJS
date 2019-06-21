@@ -1,40 +1,40 @@
-﻿// first task------------------------
-age;
+﻿// // first task------------------------
+// age;
 
-age=+prompt("How old are you?","18");
+// age=+prompt("How old are you?","18");
 
-if (age<=0 || age<=17 && age>=13) {
-    console.log("Access is denied!");
-} else if (age>=18) {
-    console.log("Welcome!");
-} else if (age<=12){
-    console.log("Please go to Cartoon.network");
-} else {
-    console.log("Error");
-}
-// first task method2------------------
-var age=+prompt("How old are you?","18");
-        console.log(age>=12 && age<=17||age<=0 ?"Access is denied!":
-            (age>=18)?"Welcome!":
-                (age<=11)?"Please go to Cartoon.network":"error");
+// if (age<=0 || age<=17 && age>=13) {
+//     console.log("Access is denied!");
+// } else if (age>=18) {
+//     console.log("Welcome!");
+// } else if (age<=12){
+//     console.log("Please go to Cartoon.network");
+// } else {
+//     console.log("Error");
+// }
+// // first task method2------------------
+// var age=+prompt("How old are you?","18");
+//         console.log(age>=12 && age<=17||age<=0 ?"Access is denied!":
+//             (age>=18)?"Welcome!":
+//                 (age<=11)?"Please go to Cartoon.network":"error");
  
 
-// second task----------------------------
-var age = +prompt("How old are you?","30");
+// // second task----------------------------
+// var age = +prompt("How old are you?","30");
 
-if (age >=30) {
-   var experience=prompt("what is your experience?","3");
-       if (age<=29||experience<=2) {
-          console.log('Not ready!');
-        } else if (age>=30 && experience>=3) {
-          console.log("Welcome!");
-        } 
-}  else if (isNaN(age)||age<=0) {
-        console.log('error');
-}   else {
-        console.log('Not ready!');
-}
-// third task-------------------------------
+// if (age >=30) {
+//    var experience=prompt("what is your experience?","3");
+//        if (age<=29||experience<=2) {
+//           console.log('Not ready!');
+//         } else if (age>=30 && experience>=3) {
+//           console.log("Welcome!");
+//         } 
+// }  else if (isNaN(age)||age<=0) {
+//         console.log('error');
+// }   else {
+//         console.log('Not ready!');
+// }
+// // third task-------------------------------
 
 var EVRO = "EVRO";
 var EVRO_SM = "Evro";
