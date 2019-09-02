@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/subset-ProximaNova-Regular.eot');
+    src: url('fonts/subset-ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-ProximaNova-Regular.woff2') format('woff2'),
+        url('fonts/subset-ProximaNova-Regular.woff') format('woff'),
+        url('fonts/subset-ProximaNova-Regular.ttf') format('truetype'),
+        url('fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    min-width: 320px;
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+    color:#E2E2E2;
+}
+.container {
+    margin-top: 50px;
+    max-width: 1550px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title {
+    font-size: 100px;
+    color:#280E04;
+    text-align: center;
+    text-shadow: 3px 2px 2px #58300A, 0 0 1em black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    border: 2px solid black;
+    padding-bottom: 25px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    box-shadow: 14px 11px 5px 0px rgba(83,84,97,1);
+}
+.book:hover {
+    background-color: #ACCDF4;
+    color: #ffffff;
+    transform: scale(1.1,1.1);
+    transition-timing-function: ease-out;
+    transition-duration: 550ms;
+} 
+
+.name {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+    color: yellow;
+    text-shadow: 3px 2px 2px yellow, 0 0 1em black;
+}
+.block_text {
+    padding: 30px 30px 0 30px;
+}
+.block_number {
+    padding-top: 10px;
+}
+.authors {
+    width: 170px;
+    font-size: 19px;
+}
+.publisher {
+    font-size: 12px;
+    padding-top: 30px;
+}
+.pages {
+    font-size: 10px;
+}
+
